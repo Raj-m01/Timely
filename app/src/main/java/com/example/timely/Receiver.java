@@ -4,6 +4,7 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
@@ -25,7 +26,10 @@ public class Receiver extends BroadcastReceiver {
                 .setContentText("Time's Up")
                 .setAutoCancel(true)
                 .setContentIntent(pendingIntent)
-                .setPriority(NotificationCompat.PRIORITY_HIGH);
+                .setPriority(NotificationCompat.PRIORITY_HIGH)
+                .setSound(Uri.parse("android.resource://"
+                        + context.getPackageName() + "/" + R.raw.alarm_beep));
+
 
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(context);
 

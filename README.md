@@ -3,7 +3,7 @@ Timely is a simple android app which lets user set timer. User gets notified as 
 Implemented using android broadcast receiver and alarm manager.
 
 
-### Application link : <a href="https://drive.google.com/file/d/1berdGSCJbNHDf9VSHhmPG4tBGFwGp8jz/view?usp=sharing">**Click here to download**</a>
+### Application link : <a href="https://drive.google.com/file/d/1wQzT3nORH38MDumLzfBX7loGAFg3NoOt/view?usp=sharing">**Click here to download**</a>
 
 
 ### Demo : 
