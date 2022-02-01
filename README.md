@@ -1,4 +1,6 @@
-# Timely
+# Timely 
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FRaj-m01%2FTimely&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+
 Timely is a simple android app which lets user set timer. User gets notified as timer ends.
 Implemented using android broadcast receiver and alarm manager.
 
